@@ -1,0 +1,14 @@
+# 构建产物
+/build/
+/app/build/
+.gradle/
+.idea/
+*.class
+*.apk
+*.ap_
+*.idsig
+
+# 本地配置与签名
+local.properties
+*.jks
+*.keystore

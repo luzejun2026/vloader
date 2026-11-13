@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">vloader</string>
+    <string name="app_title">vloader</string>
+
+    <!-- 主页 -->
+    <string name="section_links">播放列表链接</string>
+    <string name="hint_url">一行一条链接，也支持「链接|文件名」</string>
+    <string name="hint_url_multi">一行一条链接，按顺序依次下载；行首 # 可写注释</string>
+    <string name="section_filename_once">本次下载的文件名</string>
+    <string name="hint_filename_once">留空自动命名</string>
+    <string name="hint_filename_batch">一行一个文件名，与链接一一对应</string>
+
+    <string name="btn_preview">在线预览</string>
+    <string name="btn_start">开始下载</string>
+    <string name="btn_pause">暂停</string>
+    <string name="btn_resume">继续</string>
+    <string name="btn_cancel">取消</string>
+    <string name="btn_abandon">放弃</string>
+    <string name="btn_ok">确定</string>
+    <string name="btn_clear">清空</string>
+    <string name="btn_save_location">保存位置</string>
+    <string name="btn_clear_all">清空全部</string>
+
+    <string name="status_wait">等待输入链接…</string>
+    <string name="status_parsing">正在解析…</string>
+    <string name="status_cancelled">已取消</string>
+    <string name="status_running">正在下载</string>
+    <string name="status_paused">已暂停</string>
+    <string name="status_queued">等待中</string>
+    <string name="status_done">已完成</string>
+    <string name="status_failed">下载失败</string>
+    <string name="status_cancelled_item">已放弃</string>
+    <string name="status_converting">正在封装</string>
+    <string name="status_saving">正在保存</string>
+
+    <string name="percent_label">完成</string>
+    <string name="detail_idle">尚未开始下载</string>
+    <string name="detail_segments">片段 %1$d / %2$d</string>
+    <string name="detail_eta">剩余 %1$s</string>
+    <string name="detail_queue">任务 %1$d / %2$d</string>
+    <string name="detail_done">成功 %1$d 个 · 失败 %2$d 个</string>
+
+    <string name="clip_hint">检测到剪贴板中的 M3U8 链接：%1$s，点此填入</string>
+    <string name="toast_clip_filled">已填入剪贴板中的链接</string>
+    <string name="toast_already_running">已有任务正在下载</string>
+    <string name="toast_already_done">任务已结束</string>
+    <string name="toast_default_opener">已设为默认打开方式</string>
+    <string name="toast_applied">已生效</string>
+    <string name="toast_location_saved">下载位置已保存</string>
+    <string name="toast_task_added">已加入下载队列（%1$d 个文件）</string>
+    <string name="toast_no_task">没有正在下载的文件</string>
+
+    <!-- 完成弹窗与打开方式 -->
+    <string name="finish_title">下载完成</string>
+    <string name="finish_failed_title">下载失败</string>
+    <string name="finish_message">已完成 %1$d 个文件，失败 %2$d 个。</string>
+    <string name="finish_failed">没有成功的文件：%1$s</string>
+    <string name="finish_unknown">未知原因</string>
+    <string name="finish_done">完成</string>
+    <string name="finish_open">打开</string>
+    <string name="finish_open_with">选择打开方式</string>
+    <string name="opener_title">选择打开方式</string>
+    <string name="opener_ask">每次询问</string>
+    <string name="err_no_opener">没有可打开该文件的应用</string>
+    <string name="err_open_failed">打开失败：%1$s</string>
+
+    <!-- 在线预览 -->
+    <string name="preview_title">在线预览</string>
+    <string name="preview_connecting">正在连接播放列表…</string>
+    <string name="preview_playing">正在播放</string>
+    <string name="preview_error">无法播放该链接（错误 %1$d）</string>
+    <string name="preview_empty">没有可预览的链接</string>
+    <string name="preview_hint">在线预览不保存文件</string>
+    <string name="preview_external">用外部播放器打开</string>
+    <string name="preview_prev">上一个</string>
+    <string name="preview_next">下一个</string>
+    <string name="preview_counter">%1$d / %2$d</string>
+    <string name="preview_no_more">没有更多了</string>
+    <!-- 自绘播放器：全屏 / 倍速 / 长按三倍速 -->
+    <string name="preview_fullscreen">全屏</string>
+    <string name="preview_exit_fullscreen">退出全屏</string>
+    <string name="preview_speed">倍速</string>
+    <string name="preview_speed_item">%1$sx</string>
+    <string name="preview_speed_title">播放倍速</string>
+    <string name="preview_boost_resume">已恢复原速</string>
+    <string name="preview_rewind">后退 10 秒</string>
+    <string name="preview_forward">前进 10 秒</string>
+    <string name="preview_time_zero">00:00</string>
+    <string name="preview_buffering">正在缓冲…</string>
+    <string name="preview_speed_unsupported">当前系统不支持倍速播放</string>
+
+    <!-- 设置主界面 -->
+    <string name="settings_title">设置</string>
+    <string name="cat_appearance">外观</string>
+    <string name="cat_appearance_sub">界面风格、字号、壁纸、底栏</string>
+    <string name="cat_download">下载</string>
+    <string name="cat_download_sub">线程、重试、限速、通知</string>
+    <string name="cat_location">保存位置</string>
+    <string name="cat_location_sub">下载目录与内置文件管理器</string>
+    <string name="cat_other">其他</string>
+    <string name="cat_other_sub">打开方式与缓存</string>
+    <string name="cat_about">关于</string>
+    <string name="cat_about_sub">版本、日志与联系作者</string>
+
+    <!-- 外观子页 -->
+    <string name="row_ui_style">界面风格</string>
+    <string name="ui_style_sub">选择应用的界面风格</string>
+    <string name="ui_material">Material You（Material Design 3）</string>
+    <string name="ui_miui">MIUI</string>
+    <string name="row_dark_mode">深色模式</string>
+    <string name="row_dark_mode_sub">浅色、深色或跟随系统</string>
+    <string name="mode_light">浅色</string>
+    <string name="mode_dark">深色</string>
+    <string name="mode_system">跟随系统</string>
+    <!-- 底栏两个独立开关：形态（悬浮/固定）+ 材质（液态玻璃/磨砂） -->
+    <string name="row_floating_nav">悬浮底栏</string>
+    <string name="row_floating_nav_hint">悬浮胶囊式底栏；关闭后为贴底的经典固定导航栏</string>
+    <string name="row_liquid_nav">液态玻璃</string>
+    <string name="row_liquid_nav_hint">折射、色散与高光动效；关闭后为普通磨砂玻璃</string>
+
+    <string name="row_font_size">字体大小</string>
+    <string name="font_small">小</string>
+    <string name="font_normal">标准</string>
+    <string name="font_large">大</string>
+    <string name="font_xlarge">超大</string>
+    <string name="row_wallpaper">自定义壁纸</string>
+    <string name="wallpaper_none">未设置</string>
+    <string name="wallpaper_pick">选择图片</string>
+    <string name="wallpaper_clear">恢复默认</string>
+    <string name="wallpaper_invalid">无法读取该图片</string>
+    <string name="toast_wallpaper_set">壁纸已应用</string>
+    <string name="picker_file_title">选择图片</string>
+    <string name="picker_image_only">仅显示图片文件</string>
+
+    <!-- 下载子页 -->
+    <string name="section_download">下载</string>
+    <string name="batch_title">批量下载</string>
+    <string name="row_threads">并发线程数</string>
+    <string name="threads_unlimited">无限制</string>
+    <string name="threads_value">%1$d 线程</string>
+    <string name="threads_hint">线程数，0 表示无限制</string>
+    <string name="threads_custom">自定义线程数</string>
+    <string name="threads_desc">默认 32 线程</string>
+    <string name="row_retries">失败重试次数</string>
+    <string name="row_retries_sub">单个片段失败后的额外重试</string>
+    <string name="row_retries_value">%1$d 次</string>
+    <string name="retries_item">%1$d 次</string>
+    <string name="row_headers">自定义请求头</string>
+    <string name="row_headers_hint">每行一条 Key: Value</string>
+    <string name="headers_desc">用于防盗链站点</string>
+    <string name="hint_headers">每行一条 Key: Value</string>
+    <string name="row_notify">通知栏进度</string>
+    <string name="row_notify_hint">显示进度与暂停/继续/放弃操作</string>
+    <string name="err_number">请输入有效数字</string>
+
+    <string name="row_speed_limit">下载速度限制</string>
+    <string name="speed_title">下载速度限制</string>
+    <string name="speed_unlimited">不限速</string>
+    <string name="speed_1">1.0 MB/s</string>
+    <string name="speed_2">2.0 MB/s</string>
+    <string name="speed_5">5.0 MB/s</string>
+    <string name="speed_10">10 MB/s</string>
+    <string name="speed_custom">自定义 KB/s</string>
+    <string name="speed_custom_hint">自定义 KB/s</string>
+    <string name="speed_invalid">请输入有效速度</string>
+    <string name="speed_value_unlimited">不限速</string>
+    <string name="speed_value_limited">%1$s KB/s</string>
+
+    <string name="row_files_per_run">单次下载文件数</string>
+    <string name="files_per_run_value">%1$d 个</string>
+    <string name="files_per_run_unlimited">不限</string>
+
+    <string name="row_finish_notify">下载完成通知</string>
+    <string name="row_auto_jump">下载后自动跳转至任务界面</string>
+    <string name="row_keep_alive">锁屏后继续下载</string>
+    <string name="keep_alive_hint">需将本应用的电池管理设为无限制</string>
+    <string name="keep_alive_need">请在系统设置中把本应用的电池优化设为「无限制」，否则锁屏后下载可能被暂停。</string>
+    <string name="btn_battery_settings">去设置</string>
+    <string name="keep_alive_ok">已关闭电池优化</string>
+
+    <!-- 保存位置子页 -->
+    <string name="section_location">保存位置</string>
+    <string name="loc_mode_title">下载目录模式</string>
+    <string name="loc_mode_sub">选择文件的写入方式</string>
+    <string name="loc_public">公共下载目录</string>
+    <string name="loc_subdir">Download 子文件夹</string>
+    <string name="loc_absolute">自定义绝对路径</string>
+    <string name="hint_subdir">子文件夹名</string>
+    <string name="hint_abs_path">绝对路径</string>
+    <string name="btn_browse_dir">浏览并选择目录</string>
+    <string name="btn_grant_all_files">申请所有文件访问权限</string>
+    <string name="all_files_granted">已获得所有文件访问权限</string>
+    <string name="all_files_not_granted">尚未获得所有文件访问权限</string>
+    <string name="location_no_permission_needed">当前模式无需权限</string>
+    <string name="location_current">当前位置：%1$s</string>
+    <string name="location_hint">相对名称会自动落到 Download 目录下</string>
+
+    <!-- 其他子页 -->
+    <string name="section_opener">打开方式</string>
+    <string name="row_default_opener">默认打开方式</string>
+    <string name="row_clear_cache">清除下载缓存</string>
+    <string name="row_clear_cache_hint">清理残留的临时片段</string>
+    <string name="cache_size">%1$s</string>
+    <string name="clear_cache_confirm">将清除 %1$s 下载缓存</string>
+    <string name="clear_cache_done">已释放 %1$s 空间</string>
+
+    <!-- 关于子页 -->
+    <string name="about_version">版本</string>
+    <string name="section_contact">联系作者</string>
+    <string name="contact_qq">QQ</string>
+    <string name="contact_qq_sub">QQ 号 %1$s，点击复制或跳转</string>
+    <string name="contact_bili">Bilibili</string>
+    <string name="btn_copy_qq">复制 QQ 号</string>
+    <string name="btn_open_qq">跳转 QQ</string>
+    <string name="btn_open_link">打开</string>
+    <string name="toast_copied">QQ 号已复制</string>
+
+    <string name="row_view_log">查看日志</string>
+    <string name="row_export_log">导出日志</string>
+    <string name="log_title">运行日志</string>
+    <string name="log_empty">暂无日志</string>
+    <string name="log_exported">日志已导出到下载目录：%1$s</string>
+    <string name="log_failed">导出失败：%1$s</string>
+    <string name="btn_clear_log">清空日志</string>
+
+    <!-- 内置文件管理器 -->
+    <string name="picker_title">选择下载位置</string>
+    <string name="picker_hint">浏览内置存储目录，不调用系统文件管理器</string>
+    <string name="picker_up">上一级</string>
+    <string name="picker_exit">退出文件管理器</string>
+    <string name="picker_new_folder">新建文件夹</string>
+    <string name="picker_select">选择此目录</string>
+    <string name="picker_granted">已获得所有文件访问权限</string>
+    <string name="picker_need_permission">尚未授权「所有文件访问」，部分目录可能无法显示</string>
+    <string name="picker_no_access">无法读取该目录</string>
+    <string name="picker_empty">此目录下没有子文件夹</string>
+    <string name="picker_folder_name">新文件夹名称</string>
+    <string name="picker_name_empty">文件夹名不能为空</string>
+    <string name="picker_exists">同名文件夹已存在</string>
+    <string name="picker_create_failed">创建失败</string>
+    <string name="picker_picked">已选择：%1$s</string>
+
+    <!-- 下载历史 -->
+    <string name="history_title">下载历史</string>
+    <string name="history_tab_done">已下载</string>
+    <string name="history_tab_active">正在下载</string>
+    <string name="history_active_count">%1$d 个文件</string>
+    <string name="history_clear">清空</string>
+    <string name="history_clear_done">清空已下载</string>
+    <string name="history_delete_all_files">删除所有文件</string>
+    <string name="history_delete_all_msg">将删除全部 %1$d 个已下载文件（含本地文件）及记录，此操作不可撤销。</string>
+    <string name="history_delete_all_done">已删除 %1$d 个文件</string>
+    <string name="history_clear_active">清空正在下载</string>
+    <string name="history_clear_done_msg">清空全部已下载记录？不会删除文件。</string>
+    <string name="history_clear_active_msg">放弃全部正在下载与等待中的文件？</string>
+    <string name="history_hint">按下载记录保存，每条都记有文件地址</string>
+    <string name="history_done_empty">暂无下载记录</string>
+    <string name="history_active_empty">暂无正在下载的文件</string>
+    <string name="history_empty">暂无内容</string>
+    <string name="history_location">位置：%1$s</string>
+    <string name="history_source">来源：%1$s</string>
+    <string name="history_open">打开</string>
+    <string name="history_manage">管理</string>
+    <string name="history_choose_opener">选择打开方式</string>
+    <string name="history_rename">重命名</string>
+    <string name="history_rename_msg">请输入新文件名</string>
+    <string name="history_name_empty">文件名不能为空</string>
+    <string name="history_renamed">已重命名</string>
+    <string name="history_rename_failed">重命名失败</string>
+    <string name="history_copy">复制到…</string>
+    <string name="history_move">移动到…</string>
+    <string name="history_delete_file">删除文件与记录</string>
+    <string name="history_remove_record">仅移除记录</string>
+    <string name="history_copy_link">复制链接</string>
+    <string name="history_removed">已移除记录</string>
+    <string name="history_link_copied">链接已复制</string>
+    <string name="history_delete">删除</string>
+    <string name="history_delete_msg">将同时删除文件与该条历史记录，此操作不可撤销。</string>
+    <string name="history_deleted">已删除文件与记录</string>
+    <string name="history_deleted_no_file">文件已不存在，已移除记录</string>
+    <string name="history_clear_msg">只清除历史记录，不会删除已下载的文件。</string>
+    <string name="history_cleared">已清空</string>
+    <string name="history_external_dir">外部目录 / %1$s</string>
+    <string name="history_copy_status">副本</string>
+    <string name="history_moved">已移动</string>
+    <string name="history_copied">已复制</string>
+    <string name="history_op_failed">操作失败：%1$s</string>
+
+    <!-- 错误 -->
+    <string name="err_empty_url">请先输入 m3u8 链接</string>
+    <string name="err_no_browser">没有可打开该链接的应用</string>
+    <!-- 文件已被删除但记录还在时的友好提示 -->
+    <string name="history_file_missing_title">文件已不存在</string>
+    <string name="err_file_missing">该文件已被删除或移动，但下载记录仍在。可移除这条失效记录。</string>
+    <string name="err_empty_path">请填写自定义保存目录</string>
+    <string name="err_need_all_files">自定义目录需要「所有文件访问」权限</string>
+    <!-- M3U8 真实性校验 -->
+    <string name="err_not_m3u8">不是有效的 M3U8 链接：%1$s</string>
+    <string name="err_not_m3u8_content">该链接返回的内容不是 M3U8 播放列表</string>
+
+    <!-- 下载完成系统通知 -->
+    <string name="notif_finish_title">下载完成</string>
+    <string name="notif_finish_text">成功 %1$d 个，失败 %2$d 个，点此查看</string>
+
+    <!-- 用户协议（首次启动强制弹出，关于页可再次查看） -->
+    <string name="eula_title">用户协议</string>
+    <string name="eula_agree">同意并继续</string>
+    <string name="eula_decline">不同意并退出</string>
+    <string name="eula_hint">首次使用请阅读并同意《用户协议》，不同意将无法使用本软件。</string>
+    <string name="eula_checkbox">我已阅读并同意上述《用户协议》</string>
+    <string name="eula_need_check">请先勾选「我已阅读并同意」</string>
+    <string name="eula_view">查看用户协议</string>
+    <string name="eula_close">关闭</string>
+    <string name="about_version_label">版本 %1$s</string>
+    <string name="about_brand">vloader</string>
+
+    <!-- 关于页 -->
+    <string name="about_antipiracy">禁止盗版、二次打包、篡改或冒名分发，请从官方渠道获取本软件。</string>
+    <string name="about_bili_tail">　·　三连 up 主了吗？</string>
+    <string name="about_easter_toast">彩蛋已触发，正在跳转…</string>
+</resources>
